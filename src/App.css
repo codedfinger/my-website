@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+.link {
+    color: #088F8F;
+    text-decoration: none;
+}
+
+a {
+    color: #088F8F;
+    text-decoration: none;
+}
+
+p:before {
+    content: #9830;
+  }
+
+Col Link h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #088F8F !important; 
+    padding-top: 10px;
+}
+
 h6 {
     font-family: 'Open Sans', sans-serif;
     color: #71797E;
@@ -9,12 +29,8 @@ h6 {
 .home-content {
     text-align: left;
     padding-top:60px;
-  }
+}
 
-  .link {
-    color: #088F8F;
-    text-decoration: none;
-  }
-  .link:hover {
+.link:hover {
     color: #023020	;
- }
+}
