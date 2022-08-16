@@ -14,6 +14,7 @@ const Home = () => {
                     <Col xs="3">
                         <Link className="link" to='/'><h3>Alexander Swiss</h3></Link>
                         <h6>This is where I share my thoughts and experiences that I encounter developing software.</h6>
+                        <p>I write about devops at <a className='link' href='codedfingers.hashnode.dev'>codedfingers.hashnode.dev</a></p>
                         <Link className="link" to='/'><h6>home</h6></Link>
                         <Link className="link" to='/blog'><h6>blog</h6></Link>
                     </Col>
